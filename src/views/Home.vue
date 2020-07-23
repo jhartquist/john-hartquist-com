@@ -46,7 +46,7 @@
             <v-list-item-content>
               <v-list-item-title>Education</v-list-item-title>
               <v-list-item-subtitle
-                >MSc. Computer Science '12<br />
+                >MS Computer Science '12<br />
                 California Polytechnic State University</v-list-item-subtitle
               >
             </v-list-item-content>
@@ -56,8 +56,14 @@
             <v-list-item-content>
               <v-list-item-title>Experience</v-list-item-title>
               <v-list-item-subtitle
-                ><a href="#">LinkedIn Profile</a><br />
-                <a href="#">Download Resume</a></v-list-item-subtitle
+                ><a
+                  href="https://www.linkedin.com/in/john-hartquist/"
+                  target="_blank"
+                  >LinkedIn Profile</a
+                ><br />
+                <a href="/resume.pdf" target="_blank"
+                  >Download Resume</a
+                ></v-list-item-subtitle
               >
             </v-list-item-content>
           </v-list-item>
@@ -66,7 +72,9 @@
             <v-list-item-content>
               <v-list-item-title>Blog Posts</v-list-item-title>
               <v-list-item-subtitle>
-                <a href="#"
+                <a
+                  href="https://towardsdatascience.com/audio-classification-using-fastai-and-on-the-fly-frequency-transforms-4dbe1b540f89"
+                  target="_blank"
                   >Audio Classification using FastAI and On-the-Fly Frequency
                   Transforms</a
                 ></v-list-item-subtitle
@@ -91,6 +99,7 @@ export default {
     margin-bottom: 0;
   }
   .v-list-item__subtitle {
+    margin-top: 4px;
     white-space: normal;
     a {
       color: #999;

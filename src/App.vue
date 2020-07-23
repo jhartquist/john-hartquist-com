@@ -22,6 +22,8 @@
               small
               elevation="0"
               color="#ccc"
+              :href="btn.href"
+              target="_blank"
             >
               <v-icon>{{ btn.icon }}</v-icon>
             </v-btn>
@@ -40,11 +42,14 @@ export default Vue.extend({
 
   data: () => ({
     btns: [
-      { icon: 'mdi-email' },
-      { icon: 'mdi-linkedin' },
-      { icon: 'mdi-twitter' },
-      { icon: 'mdi-github' },
-      { icon: 'mdi-facebook' },
+      { icon: 'mdi-email', href: 'mailto:john@hartquist.com' },
+      {
+        icon: 'mdi-linkedin',
+        href: 'https://www.linkedin.com/in/john-hartquist/',
+      },
+      { icon: 'mdi-twitter', href: 'https://twitter.com/johnhartquist' },
+      { icon: 'mdi-github', href: 'https://github.com/jhartquist' },
+      { icon: 'mdi-facebook', href: 'https://www.facebook.com/jhartquist' },
     ],
   }),
 })
