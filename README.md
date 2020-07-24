@@ -1,4 +1,4 @@
-# hartquist-com
+# john-hartquist-com
 
 ## Project setup
 ```
