@@ -61,7 +61,7 @@
                   target="_blank"
                   >LinkedIn Profile</a
                 ><br />
-                <a href="/resume.pdf" target="_blank"
+                <a href="/John_Hartquist_Resume.pdf" target="_blank"
                   >Download Resume</a
                 ></v-list-item-subtitle
               >
