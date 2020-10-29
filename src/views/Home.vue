@@ -8,7 +8,7 @@
           </v-card-title>
 
           <v-card-subtitle class="text-h6 mb-2">
-            <p>Software Engineer</p>
+            <p>Software Engineer - ML</p>
             <p>Seattle, WA</p>
           </v-card-subtitle>
           <v-list-item>
