@@ -15,7 +15,7 @@
             <v-list-item-content>
               <v-list-item-title>Interests</v-list-item-title>
               <v-list-item-subtitle
-                >Real-time Audio Analysis, VR/AR, Deep Learning, Functional
+                >Real-time Audio Analysis, DSP, VR/AR, Deep Learning, Functional
                 Programming, Reinforcement Learning, Prototyping
               </v-list-item-subtitle>
             </v-list-item-content>
@@ -25,7 +25,7 @@
             <v-list-item-content>
               <v-list-item-title>Preferred Languages</v-list-item-title>
               <v-list-item-subtitle
-                >Python, TypeScript, C/C++, Scala</v-list-item-subtitle
+                >Python, TypeScript, Scala</v-list-item-subtitle
               >
             </v-list-item-content>
           </v-list-item>
@@ -62,7 +62,7 @@
                   >LinkedIn Profile</a
                 ><br />
                 <a href="/John_Hartquist_Resume.pdf" target="_blank"
-                  >Download Resume</a
+                  >Resume (PDF)</a
                 ></v-list-item-subtitle
               >
             </v-list-item-content>
@@ -71,6 +71,13 @@
           <v-list-item>
             <v-list-item-content>
               <v-list-item-title>Blog Posts</v-list-item-title>
+               <v-list-item-subtitle>
+                <a
+                  href="https://wandb.ai/jhartquist/fastaudio-esc-50/reports/Fine-tuning-ResNet-18-for-Audio-Classification--VmlldzoyNjU3OTQ"
+                  target="_blank"
+                  >Fine-tuning ResNet-18 for Audio Classification</a
+                ></v-list-item-subtitle
+              >
               <v-list-item-subtitle>
                 <a
                   href="https://towardsdatascience.com/audio-classification-using-fastai-and-on-the-fly-frequency-transforms-4dbe1b540f89"
